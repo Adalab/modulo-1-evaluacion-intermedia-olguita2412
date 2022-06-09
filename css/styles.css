@@ -49,5 +49,19 @@ html {
     color: var(--color-texto);
     font-size: 3rem;
     text-align: center;
-    width: 50%;
+    margin: 50%;
+}
+@media all and (min-width: 768px) {
+    .header {
+        padding: 0px 30px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .list-header {
+        padding: 0px;
+    }
+    .title-main {
+        font-size: 4rem;
+    }
 }
