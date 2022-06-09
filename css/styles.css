@@ -10,3 +10,27 @@ html {
     --color-fondo:#3CDBC0;
     --color-texto:#FFFFFF; 
 }
+.header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-header {
+    width: 155px;
+    padding: 10px 0px;
+}
+.list-header {
+    list-style: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: var(--color-menu);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    padding-bottom: 13px;
+}
